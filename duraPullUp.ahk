@@ -1,8 +1,8 @@
 ;Written by jash2260 on discord﻿
-SetTimer, OpenScript, 10 ; Set a timer to check the state every 10 milliseconds
-ScriptActive := False ; Initial state is inactive
-StartMouseX := 0 ; Global variable to store mouse X position
-StartMouseY := 0 ; Global variable to store mouse Y position
+SetTimer, OpenScript, 10 
+ScriptActive := False 
+StartMouseX := 0 
+StartMouseY := 0 
 
 Gui, Add, Text, x10 y10 w200 h30, Welcome to Jash's Macro :>
 Gui, Add, Text, x10 y25 w200 h30, Make sure you have watched the tutorial on how to set up the macro!
@@ -74,21 +74,48 @@ FindFood:
     }
         return
 
-hungerBar:
-    if (ScriptActive) 
-        ToolTip "looking if hungry"
+Train:
+if (ScriptActive) {
+    Sleep, 300
+    StartTime := A_TickCount
+    ToolTip "FEAR NISSAN SILVIA ON ASURA!"
+    Loop,
     {
-        PixelSearch,,, 190, 125, 172, 125, 0x000000, 5, Fast
-        If ErrorLevel = 0
-        {
-            ToolTip "Is HUNGRY"
-            Gosub FindFood
-        } else {
-            ToolTip "NOT HUNGRYYY"
+        ElapsedTime := A_TickCount - StartTime
+    
+        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\W.bmp
+        if ErrorLevel = 0
+        {				
+            SendInput, w ;w
+        }		
+        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\A.bmp
+        if ErrorLevel = 0
+        {				
+            SendInput, a ;a
         }
-    }
-return
+        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\S.bmp
+        if ErrorLevel = 0
+        {				
+            Sendinput, s ;s
+        }			
+        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\D.bmp
+        if ErrorLevel = 0
+        {				
+            Sendinput, d ;d
+        }
+        
+        Sleep, 10
 
+        
+            if (ElapsedTime >= 60000)
+                {
+                    Gosub ClickDura
+                    break
+                }
+                
+    }
+}
+    return
 
 
 ClickDura:
@@ -129,53 +156,11 @@ if (ScriptActive) {
 }
 return
 
-Train:
-if (ScriptActive) {
-    Sleep, 300
-    StartTime := A_TickCount
-    ToolTip "FEAR NISSAN SILVIA ON ASURA!"
-    Loop,
-    {
-        ElapsedTime := A_TickCount - StartTime
-    
-        
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\W.bmp
-        if ErrorLevel = 0
-        {				
-            SendInput, w ;w
-        }		
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\A.bmp
-        if ErrorLevel = 0
-        {				
-            SendInput, a ;a
-        }
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\S.bmp
-        if ErrorLevel = 0
-        {				
-            Sendinput, s ;s
-        }			
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\D.bmp
-        if ErrorLevel = 0
-        {				
-            Sendinput, d ;d
-        }
-        
-        Sleep, 10
-
-        
-            if (ElapsedTime >= 60000)
-                {
-                    Gosub ClickDura
-                    return
-                }
-                
-    }
-}
-    return
 
 
 
-k:: ;main function to start the training process
+
+k:: 
     ScriptActive := True 
     SetTimer, OpenScript, On 
     MouseGetPos, StartMouseX, StartMouseY 
@@ -192,10 +177,10 @@ k:: ;main function to start the training process
 
 p::
     ScriptActive := False 
-    SetTimer, OpenScript, Off ; Stop the timer
+    SetTimer, OpenScript, Off 
     
     return
 
-l::ExitApp ;
+l::ExitApp 
 
 
