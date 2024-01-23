@@ -30,7 +30,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 <b>This software is provided "as is" and does not grant any rights to steal, modify, or distribute the code under anyone's name without compliance with the terms of the GNU General Public License.<b>
-This macro is license under this github account as Josh
+This macro is license under this github account as Josh (nissanSilviaa) https://github.com/nissanSilviaa
 
 
 
