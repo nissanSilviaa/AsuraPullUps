@@ -13,7 +13,7 @@ Video Instruction: https://youtu.be/35pktsCUpk4?si=gsRZwqg0zNdoptom<br>
   Download the zip file and unzip the file<br>
   then follow the video or instructions below<br>
 <br>
-<b>INSTRUCTIONS:</b><b>
+<b>INSTRUCTIONS:</b>
 <br>
 You will need to download AutoHotkey V1.1 for this to work https://www.autohotkey.com/<br>
 After downloading it<br>
