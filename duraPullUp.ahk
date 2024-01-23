@@ -95,13 +95,13 @@ if (ScriptActive) {
    
     Loop,
         {
-        PixelSearch,,, 190, 125, 172, 125, 0x000000, 5, Fast ; detects food bar '190' default value
+        PixelSearch,,, 190, 125, 172, 125, 0x000000, 30, Fast ; detects food bar '190' default value
         If ErrorLevel = 0
         {
             ToolTip "Is HUNGRY"
             Gosub FindFood
         } else {
-
+            ToolTip "Is NOT HUNGRY"
             Sleep, 2000
             MouseMove, %StartMouseX%, %StartMouseY%
             Click
