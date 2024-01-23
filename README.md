@@ -34,12 +34,14 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-<b>This software is provided "as is" and does not grant any rights to steal, modify, or distribute the code under anyone's name without compliance with the terms of the GNU General Public License.</b>
-This macro is license under this github account as Josh (nissanSilviaa) https://github.com/nissanSilviaa
+<b>This software is provided "as is" and does not grant any rights to steal, modify, or distribute the code under anyone's name without compliance with the terms of the GNU General Public License.</b><br>
+This macro is license under this github account as Josh (nissanSilviaa) https://github.com/nissanSilviaa<br>
 
 
-<b>BRUH</b>
-
+<b>Common Problems are:</b><br>
+Roblox chat is not closed, just click on the chat icon on the top left and it should work fine<br>
+Hunger Bar not full might potentially cause the macro to freak out<br>
+I am trying to find fixes for these issues<br>
 
 </div>
 
