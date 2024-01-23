@@ -36,7 +36,7 @@ FindFood:
         
     {
         
-        ImageFileName := A_WorkingDir . "\bin\food\foodall" . Food . ".bmp"
+        ImageFileName := A_WorkingDir . "\bin\food\food" . Food . ".bmp"
 
         ImageSearch, FoundX, FoundY, 260, 585, 509, 618, *50 %ImageFileName%
         If ErrorLevel = 0
