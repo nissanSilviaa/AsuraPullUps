@@ -16,7 +16,7 @@ You will need to Open the Script and stand near a Pull up bar<br>
 Click on the pull up bar and then leave<br>
 and then hover your mouse at the pull up bar<br>
 then press 'k' this should start the macro<br>
-The macro has auto eat so don't worry<br>
+The macro has auto eat so don't worry just make sure you have full hunger bar<br>
 <br>
 <br>
 Jash's Macro Software
