@@ -9,7 +9,7 @@ ALL FOR FREE!<br>
 My Discord is jash2260 dm if you need help<br>
 Video Instruction: https://youtu.be/35pktsCUpk4?si=gsRZwqg0zNdoptom<br>
 <br>
-  To download the file just click the <p style="color:rgb(0,128,0);">Green</p> button that says <p style="color:rgb(0,128,0);">CODE</p><br>
+  To download the file just click the Green button that says CODE<br>
   Download the zip file and unzip the file<br>
   then follow the video or instructions below<br>
 <br>
