@@ -9,6 +9,8 @@ ALL FOR FREE!<br>
 My Discord is jash2260 dm if you need help<br>
 Video Instruction: https://youtu.be/35pktsCUpk4?si=gsRZwqg0zNdoptom<br>
 <br>
+  To download the file just click the green button that says "<Code>"<br>
+<br>
 <b>INSTRUCTIONS:<b>
 <br>
 You will need to download AutoHotkey V1.1 for this to work https://www.autohotkey.com/<br>
