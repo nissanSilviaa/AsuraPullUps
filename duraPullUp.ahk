@@ -102,7 +102,7 @@ if (ScriptActive) {
             Gosub FindFood
         } else {
             ToolTip "Is NOT HUNGRY"
-            Sleep, 2000
+            Sleep, 100
             MouseMove, %StartMouseX%, %StartMouseY%
             Click
             ToolTip "Searching..."
