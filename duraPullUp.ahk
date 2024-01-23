@@ -6,11 +6,12 @@ StartMouseY := 0 ; Global variable to store mouse Y position
 
 Gui, Add, Text, x10 y10 w200 h30, Welcome to Jash's Macro :>
 Gui, Add, Text, x10 y25 w200 h30, Make sure you have watched the tutorial on how to set up the macro!
-Gui, Add, Text, x10 y40 w200 h30, Controls:
-Gui, Add, Text, x10 y55 w200 h30, K = Start Macro
-Gui, Add, Text, x10 y70 w200 h30, L = Exit Macro
-Gui, Add, Text, x10 y85 w200 h30, P = Pause Macro (Doesn't work)
-Gui, Show, x245 y700 w300 h100, Jash's Pull Up Macro
+Gui, Add, Text, x10 y40 w200 h30, Also make sure you have full Hunger before starting the macro!
+Gui, Add, Text, x10 y55 w200 h30, Controls:
+Gui, Add, Text, x10 y70 w200 h30, K = Start Macro
+Gui, Add, Text, x10 y85 w200 h30, L = Exit Macro
+Gui, Add, Text, x10 y100 w200 h30, P = Pause Macro (Doesn't work)
+Gui, Show, x245 y700 w300 h115, Jash's Pull Up Macro
 
 
 OpenScript:
