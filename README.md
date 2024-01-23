@@ -10,7 +10,7 @@ My Discord is jash2260 dm if you need help<br>
 <br>
 <b>INSTRUCTIONS:<b>
 <br>
-You will need to download AutoHotkey V1.1 for this to work https://www.autohotkey.com/download/<br>
+You will need to download AutoHotkey V1.1 for this to work https://www.autohotkey.com/<br>
 After downloading it<br>
 You will need to Open the Script and stand near a Pull up bar<br>
 Click on the pull up bar and then leave<br>
