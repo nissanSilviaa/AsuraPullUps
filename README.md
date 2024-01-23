@@ -7,7 +7,16 @@ An Open-Source macro for Asura<br>
 Mainly for Pull Ups as of now but will add other features as well<br>
 ALL FOR FREE!<br>
 My Discord is jash2260 dm if you need help<br>
-
+<br>
+<b>INSTRUCTIONS:<b>
+<br>
+You will need to download AutoHotkey V1.1 for this to work https://www.autohotkey.com/download/<br>
+After downloading it<br>
+You will need to Open the Script and stand near a Pull up bar<br>
+Click on the pull up bar and then leave<br>
+and then hover your mouse at the pull up bar<br>
+then press 'k' this should start the macro<br>
+The macro has auto eat so don't worry<br>
 <br>
 <br>
 Jash's Macro Software
