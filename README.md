@@ -13,7 +13,7 @@ Video Instruction: https://youtu.be/35pktsCUpk4?si=gsRZwqg0zNdoptom<br>
   Download the zip file and unzip the file<br>
   then follow the video or instructions below<br>
 <br>
-<b>INSTRUCTIONS:<b>
+<b>INSTRUCTIONS:</b>b>
 <br>
 You will need to download AutoHotkey V1.1 for this to work https://www.autohotkey.com/<br>
 After downloading it<br>
@@ -34,9 +34,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-<b>This software is provided "as is" and does not grant any rights to steal, modify, or distribute the code under anyone's name without compliance with the terms of the GNU General Public License.<b>
+<b>This software is provided "as is" and does not grant any rights to steal, modify, or distribute the code under anyone's name without compliance with the terms of the GNU General Public License.</b>
 This macro is license under this github account as Josh (nissanSilviaa) https://github.com/nissanSilviaa
 
+
+<b>BRUH</b>
 
 
 </div>
