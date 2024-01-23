@@ -17,6 +17,7 @@ Click on the pull up bar and then leave<br>
 and then hover your mouse at the pull up bar<br>
 then press 'k' this should start the macro<br>
 The macro has auto eat so don't worry just make sure you have full hunger bar<br>
+This Macro is suited for all resolutions(maybe)<br>
 <br>
 <br>
 Jash's Macro Software
