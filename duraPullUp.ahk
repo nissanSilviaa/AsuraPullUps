@@ -1,4 +1,4 @@
-﻿
+;Written by jash2260 on discord﻿
 SetTimer, OpenScript, 10 ; Set a timer to check the state every 10 milliseconds
 ScriptActive := False ; Initial state is inactive
 StartMouseX := 0 ; Global variable to store mouse X position
@@ -16,10 +16,10 @@ Gui, Show, x245 y700 w300 h115, Jash's Pull Up Macro
 
 OpenScript:
      
-    SetTitleMatchMode, 2 ; Match any part of the title
-    WinActivate, % "ahk_id " Roblox ; Bring the Roblox window to the front
-    WinGet, Roblox, ID, ahk_exe RobloxPlayerBeta.exe ; Get Roblox window ID
-    WinMove, % "ahk_id " Roblox, , 0, 0, 810, 610 ; Move and resize the window
+    SetTitleMatchMode, 2 
+    WinActivate, % "ahk_id " Roblox 
+    WinGet, Roblox, ID, ahk_exe RobloxPlayerBeta.exe 
+    WinMove, % "ahk_id " Roblox, , 0, 0, 810, 610 
         	
     return
 
@@ -133,12 +133,12 @@ Train:
 if (ScriptActive) {
     Sleep, 300
     StartTime := A_TickCount
-    
+    ToolTip "FEAR NISSAN SILVIA ON ASURA!"
     Loop,
     {
         ElapsedTime := A_TickCount - StartTime
     
-        ToolTip % ElapsedTime
+        
         ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\W.bmp
         if ErrorLevel = 0
         {				
@@ -176,9 +176,9 @@ if (ScriptActive) {
 
 
 k:: ;main function to start the training process
-    ScriptActive := True ; Activate the script when you press "k"
-    SetTimer, OpenScript, On ; Start the timer
-    MouseGetPos, StartMouseX, StartMouseY ; Where to click to find the pull up bar
+    ScriptActive := True 
+    SetTimer, OpenScript, On 
+    MouseGetPos, StartMouseX, StartMouseY 
     ImageSearch,,, 70, 50, 100, 67, *50 %A_ScriptDir%\bin\chat.bmp
     if ErrorLevel = 0
         {				
@@ -191,11 +191,11 @@ k:: ;main function to start the training process
     return
 
 p::
-    ScriptActive := False ; Deactivate the script when you press "p"
+    ScriptActive := False 
     SetTimer, OpenScript, Off ; Stop the timer
     
     return
 
-l::ExitApp ; Press "l" to exit the script
+l::ExitApp ;
 
 
