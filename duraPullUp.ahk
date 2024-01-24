@@ -3,8 +3,9 @@ SetTimer, OpenScript, 10
 ScriptActive := False 
 StartMouseX := 0 
 StartMouseY := 0 
+macVersion := "v1.2"
 
-Gui, Add, Text, x10 y10 w200 h30, Welcome to Jash's Macro :>
+Gui, Add, Text, x10 y10 w200 h30, Welcome to Jash's Macro (Version: %macVersion%) :>
 Gui, Add, Text, x10 y25 w200 h30, Make sure you have watched the tutorial on how to set up the macro!
 Gui, Add, Text, x10 y40 w200 h30, Also make sure you have full Hunger before starting the macro!
 Gui, Add, Text, x10 y55 w200 h30, Controls:
@@ -33,7 +34,7 @@ FindFood:
         Food = 1
         
         
-    Loop,
+    Loop
         
     {
         
@@ -56,7 +57,7 @@ FindFood:
             Sleep, 100
             Gosub ClickDura
             
-            return
+            Break
         } else {
             Food++
             if (food >= 6)
@@ -79,29 +80,29 @@ if (ScriptActive) {
     Sleep, 300
     StartTime := A_TickCount
     ToolTip "FEAR NISSAN SILVIA ON ASURA!"
-    Loop,
+    Loop
     {
         ElapsedTime := A_TickCount - StartTime
     
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\W.bmp
+        ImageSearch,,, 200, 209, 590, 235, *70 %A_ScriptDir%\bin\W.bmp
         if ErrorLevel = 0
         {				
-            SendInput, w ;w
+            SendInput, w 
         }		
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\A.bmp
+        ImageSearch,,, 200, 209, 590, 235, *70 %A_ScriptDir%\bin\A.bmp
         if ErrorLevel = 0
         {				
-            SendInput, a ;a
+            SendInput, a 
         }
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\S.bmp
+        ImageSearch,,, 200, 209, 590, 235, *70 %A_ScriptDir%\bin\S.bmp
         if ErrorLevel = 0
         {				
-            Sendinput, s ;s
+            Sendinput, s 
         }			
-        ImageSearch,,, 200, 209, 590, 235, *50 %A_ScriptDir%\bin\D.bmp
+        ImageSearch,,, 200, 209, 590, 235, *70 %A_ScriptDir%\bin\D.bmp
         if ErrorLevel = 0
         {				
-            Sendinput, d ;d
+            Sendinput, d 
         }
         
         Sleep, 10
@@ -121,7 +122,7 @@ if (ScriptActive) {
 ClickDura:
 if (ScriptActive) {
    
-    Loop,
+    Loop
         {
         PixelSearch,,, 190, 125, 172, 125, 0x000000, 30, Fast ; detects food bar '190' default value
         If ErrorLevel = 0
@@ -129,11 +130,11 @@ if (ScriptActive) {
             ToolTip "Is HUNGRY"
             Gosub FindFood
         } else {
-            ToolTip "Is NOT HUNGRY"
-            Sleep, 100
+             
             MouseMove, %StartMouseX%, %StartMouseY%
             Click
             ToolTip "Searching..."
+            Sleep, 100
             ImageSearch,imagex, imagey, 335, 340, 485, 365, *100 %A_ScriptDir%\bin\durability.bmp
             if ErrorLevel = 0
                 {				
@@ -145,9 +146,10 @@ if (ScriptActive) {
                     MouseMove, %imagex%, %imagey%
                     Click
                     Gosub Train
-                    return
+                    break
                 }else{
                     ToolTip "Missing Dura Image"
+                    Sleep, 500
                 }
         }
             
@@ -160,10 +162,10 @@ return
 
 
 
-k:: 
-    ScriptActive := True 
-    SetTimer, OpenScript, On 
-    MouseGetPos, StartMouseX, StartMouseY 
+k:: ;main function to start the training process
+    ScriptActive := True ; Activate the script when you press "k"
+    SetTimer, OpenScript, On ; Start the timer
+    MouseGetPos, StartMouseX, StartMouseY ; Where to click to find the pull up bar
     ImageSearch,,, 70, 50, 100, 67, *50 %A_ScriptDir%\bin\chat.bmp
     if ErrorLevel = 0
         {				
@@ -176,11 +178,11 @@ k::
     return
 
 p::
-    ScriptActive := False 
-    SetTimer, OpenScript, Off 
+    ScriptActive := False ; Deactivate the script when you press "p"
+    SetTimer, OpenScript, Off ; Stop the timer
     
     return
 
-l::ExitApp 
+l::ExitApp ; Press "l" to exit the script
 
 
