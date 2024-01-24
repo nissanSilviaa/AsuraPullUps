@@ -3,6 +3,12 @@
 <div align="center">
 <h1>AsuraPullUps</h1>
 <br>
+DISCLAIMER: The macro isn't anything amazing its simple and poorly made that took couple hours to create thats why its FREE.<br>
+If it doesn't work scroll down to the "Self-Troubleshooting" part and try the methods if nothing works then your pc isn't compatible<br>
+Why? i do not know ive tried it on 3 different devices and they all work, i have friends and other people saying that it works<br>
+If it doesn't work for you then bad luck you are on your own<br>
+<br>
+<br>
 An Open-Source macro for Asura<br>
 Mainly for Pull Ups as of now but will add other features as well<br>
 ALL FOR FREE!<br>
@@ -25,6 +31,13 @@ The macro has auto eat so don't worry just make sure you have full hunger bar<br
 This Macro is suited for all resolutions(maybe)<br>
   DO NOT USE MICROSOFT STORE ROBLOX <br>
 <br>
+
+
+
+<b>Self-Troubleshooting:</b><br>
+Roblox chat is not closed, just click on the chat icon on the top left and it should work fine<br>
+Hunger Bar not full might potentially cause the macro to freak out<br>
+I am trying to find fixes for these issues<br>
 <br>
 Jash's Macro Software
 
@@ -36,12 +49,6 @@ You should have received a copy of the GNU General Public License along with thi
 
 <b>This software is provided "as is" and does not grant any rights to steal, modify, or distribute the code under anyone's name without compliance with the terms of the GNU General Public License.</b><br>
 This macro is license under this github account as Josh (nissanSilviaa) https://github.com/nissanSilviaa<br>
-
-
-<b>Common Problems are:</b><br>
-Roblox chat is not closed, just click on the chat icon on the top left and it should work fine<br>
-Hunger Bar not full might potentially cause the macro to freak out<br>
-I am trying to find fixes for these issues<br>
 
 </div>
 
