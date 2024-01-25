@@ -35,6 +35,7 @@ This Macro is suited for all resolutions(maybe)<br>
 
 
 <b>Self-Troubleshooting:</b><br>
+MISSING DURA IMAGE: turn off Fullscreen mode<br>
 Roblox chat is not closed, just click on the chat icon on the top left and it should work fine<br>
 Hunger Bar not full might potentially cause the macro to freak out<br>
 If it says you have no food but you have food try sorting your food inventory in this chronological order<br>
