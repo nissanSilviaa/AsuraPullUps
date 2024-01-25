@@ -37,7 +37,8 @@ This Macro is suited for all resolutions(maybe)<br>
 <b>Self-Troubleshooting:</b><br>
 Roblox chat is not closed, just click on the chat icon on the top left and it should work fine<br>
 Hunger Bar not full might potentially cause the macro to freak out<br>
-I am trying to find fixes for these issues<br>
+If it says you have no food but you have food try sorting your food inventory in this chronological order<br>
+![image](https://github.com/nissanSilviaa/AsuraPullUps/assets/114170790/8bc1c719-dbad-498d-b6a9-28d3a7aef604)<br>
 <br>
 Jash's Macro Software
 
