@@ -1,8 +1,11 @@
 </div>
-DISCLAIMER: The macro isn't anything amazing or phenomenal... Its simple and poorly made that took couple hours to create thats why its FREE.<br>
-If it doesn't work scroll down to the "Self-Troubleshooting" part and try the methods if nothing works then your pc isn't compatible<br>
-Why? i do not know ive tried it on 3 different devices and they all work, i have friends and other people saying that it works<br>
-If it doesn't work for you then bad luck you are on your own<br>
+DISCLAIMER: I am not responsible for any damages or malicious use of this macro<br>
+This macro's purpose is strictly only for Asura roblox<br>
+I am not responsible for any Malicious software you may have downloaded<br>
+in the process of installing the macro, make sure you download only from official websites<br>
+This macro is open source and can be read for others therefore has no malicious intent<br>
+if by anychance the software triggers Windows Security or Antivirus softwares<br>
+Immediately halt the software and remove from your device<br>
 </div>
 
 <div align="center">
