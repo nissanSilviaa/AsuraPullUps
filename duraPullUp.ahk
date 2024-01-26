@@ -3,7 +3,7 @@ SetTimer, OpenScript, 10
 ScriptActive := False 
 StartMouseX := 0 
 StartMouseY := 0 
-macVersion := "v1.2"
+macVersion := "v1.5"
 
 Gui, Add, Text, x10 y10 w200 h30, Welcome to Jash's Macro (Version: %macVersion%) :>
 Gui, Add, Text, x10 y25 w200 h30, Make sure you have watched the tutorial on how to set up the macro!
@@ -40,7 +40,7 @@ FindFood:
         
         ImageFileName := A_WorkingDir . "\bin\food\food" . Food . ".bmp"
 
-        ImageSearch, FoundX, FoundY, 260, 585, 509, 618, *50 %ImageFileName%
+        ImageSearch, FoundX, FoundY, 260, 585, 509, 618, *100 %ImageFileName%
         If ErrorLevel = 0
         {
             FoundX += 5
@@ -55,7 +55,7 @@ FindFood:
             Sleep, 2000
             Click
             Sleep, 100
-            Gosub ClickDura
+            Goto ClickDura
             
             Break
         } else {
@@ -64,7 +64,7 @@ FindFood:
             {
                 ToolTip "No Food!!"
                 ;no food LOG function insert here
-                return
+                break
             }
         }
     }
@@ -110,7 +110,7 @@ if (ScriptActive) {
         
             if (ElapsedTime >= 60000)
                 {
-                    Gosub ClickDura
+                    Goto ClickDura
                     break
                 }
                 
@@ -128,13 +128,13 @@ if (ScriptActive) {
         If ErrorLevel = 0
         {
             ToolTip "Is HUNGRY"
-            Gosub FindFood
+            Goto FindFood
         } else {
              
             MouseMove, %StartMouseX%, %StartMouseY%
             Click
             ToolTip "Searching..."
-            Sleep, 100
+            
             ImageSearch,imagex, imagey, 335, 340, 485, 365, *100 %A_ScriptDir%\bin\durability.bmp
             if ErrorLevel = 0
                 {				
@@ -145,11 +145,11 @@ if (ScriptActive) {
                     Sleep, 50
                     MouseMove, %imagex%, %imagey%
                     Click
-                    Gosub Train
+                    Goto Train
                     break
                 }else{
                     ToolTip "Missing Dura Image"
-                    Sleep, 500
+                    
                 }
         }
             
@@ -174,7 +174,7 @@ k:: ;main function to start the training process
             Click
         }
         Sleep, 50
-    Gosub ClickDura
+    Goto ClickDura
     return
 
 p::
@@ -184,5 +184,4 @@ p::
     return
 
 l::ExitApp ; Press "l" to exit the script
-
 
