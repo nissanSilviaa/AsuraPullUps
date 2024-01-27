@@ -64,7 +64,7 @@ FindFood:
             {
                 ToolTip "No Food!!"
                 ;no food LOG function insert here
-                break
+                
             }
         }
     }
