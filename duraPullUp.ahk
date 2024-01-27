@@ -60,10 +60,10 @@ FindFood:
             Break
         } else {
             Food++
-            if (food >= 6)
+            if (food >= 7)
             {
                 ToolTip "No Food!!"
-                ;no food LOG function insert here
+                Food = 1
                 
             }
         }
