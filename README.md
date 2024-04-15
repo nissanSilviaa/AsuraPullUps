@@ -20,6 +20,7 @@ An Open-Source macro for Asura<br>
 Mainly for Pull Ups as of now but will add other features as well<br>
 ALL FOR FREE!<br>
 My Discord is jash2260 dm if you need help<br>
+  before dm'ing me make sure <b>DO NOT USE MICROSOFT STORE ROBLOX</b> <br>
 Video Instruction: https://youtu.be/35pktsCUpk4?si=gsRZwqg0zNdoptom<br>
 <br>
   To download the file just click the Green button that says CODE<br>
