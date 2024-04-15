@@ -36,13 +36,18 @@ and then hover your mouse at the pull up bar<br>
 then press 'k' this should start the macro<br>
 The macro has auto eat so don't worry just make sure you have full hunger bar<br>
 This Macro is suited for all resolutions(maybe)<br>
-  DO NOT USE MICROSOFT STORE ROBLOX <br>
+  <b>DO NOT USE MICROSOFT STORE ROBLOX</b> <br>
 <br>
 
 
 
 <b>Self-Troubleshooting:</b><br>
 MISSING DURA IMAGE: turn off Fullscreen mode<br>
+If it keeps saying missing dura image make sure to change your display settings to these<br>
+![image](https://github.com/nissanSilviaa/AsuraPullUps/assets/114170790/f2ca2071-636d-4bf5-ae6f-624eb345ccdb)<br>
+however macro should work for all resolutions if it doesnt work keep changing into different resolutions<br>
+![image](https://github.com/nissanSilviaa/AsuraPullUps/assets/114170790/ab3a60ae-c25e-4cd2-bd02-167217f6d769)<br>
+<br>
 Roblox chat is not closed, just click on the chat icon on the top left and it should work fine<br>
 Hunger Bar not full might potentially cause the macro to freak out<br>
 If it says you have no food but you have food try sorting your food inventory in this chronological order<br>
