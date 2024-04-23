@@ -12,7 +12,7 @@ Immediately halt the software and remove from your device<br>
 <h1>AsuraPullUps</h1>
 </div>
 <br>
-<b>NOTE:</b>I quit asura so if the macro doesn't work then bad luck<br>
+
 <div align="center">
 <br>
 <br>
@@ -53,6 +53,9 @@ Roblox chat is not closed, just click on the chat icon on the top left and it sh
 Hunger Bar not full might potentially cause the macro to freak out<br>
 If it says you have no food but you have food try sorting your food inventory in this chronological order<br>
 ![image](https://github.com/nissanSilviaa/AsuraPullUps/assets/114170790/8bc1c719-dbad-498d-b6a9-28d3a7aef604)<br>
+
+<b>NOTE:</b>I quit asura so if the macro doesn't work then bad luck<br>
+
 <br>
 Jash's Macro Software
 
