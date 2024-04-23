@@ -12,7 +12,7 @@ Immediately halt the software and remove from your device<br>
 <h1>AsuraPullUps</h1>
 </div>
 <br>
-
+<b>NOTE:</b>I quit asura so if the macro doesn't work then bad luck<br>
 <div align="center">
 <br>
 <br>
